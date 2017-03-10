@@ -176,6 +176,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Nwidart\Modules\LaravelModulesServiceProvider::class,
 
     ],
 
@@ -226,7 +227,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Uuid' => Webpatser\Uuid\Uuid::class,
-
+        'Module' => Nwidart\Modules\Facades\Module::class,
     ],
 
 ];
