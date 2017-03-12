@@ -177,6 +177,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Nwidart\Modules\LaravelModulesServiceProvider::class,
+        igaster\laravelTheme\themeServiceProvider::class,
+        App\Providers\ThemeServiceProvider::class,
 
     ],
 
@@ -228,6 +230,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Uuid' => Webpatser\Uuid\Uuid::class,
         'Module' => Nwidart\Modules\Facades\Module::class,
+        'Theme' => igaster\laravelTheme\Facades\Theme::class,
     ],
 
 ];
